@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Paper, TextField} from '@material-ui/core';
 
-class SearchBar extends Component {
+class SearchBar extends Component<any> {
   state = {
     searchTerm: '',
   }
@@ -12,8 +12,12 @@ class SearchBar extends Component {
     })
   }
 
-  handleSubmit = () => {
+  handleSubmit = (e: any) => {
     const {searchTerm} = this.state;
+    const {onFormSubmit} = this.props;
+
+    onFormSubmit(searchTerm);
+    e.preventDefault();
   }
 
   render() {
