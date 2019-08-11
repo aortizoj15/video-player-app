@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/video-player-app/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/video-player-app/static/js/main.e7645ab9.chunk.js",
-    "main.js.map": "/video-player-app/static/js/main.e7645ab9.chunk.js.map",
+    "main.js": "/video-player-app/static/js/main.fabd2ff0.chunk.js",
+    "main.js.map": "/video-player-app/static/js/main.fabd2ff0.chunk.js.map",
     "runtime~main.js": "/video-player-app/static/js/runtime~main.b5ccd678.js",
     "runtime~main.js.map": "/video-player-app/static/js/runtime~main.b5ccd678.js.map",
     "static/js/2.bc044a8a.chunk.js": "/video-player-app/static/js/2.bc044a8a.chunk.js",
     "static/js/2.bc044a8a.chunk.js.map": "/video-player-app/static/js/2.bc044a8a.chunk.js.map",
     "index.html": "/video-player-app/index.html",
-    "precache-manifest.56020c346eddb7f785d3cb3c0625fa0d.js": "/video-player-app/precache-manifest.56020c346eddb7f785d3cb3c0625fa0d.js",
+    "precache-manifest.381ec97452db58dae30c7c6df8802fd7.js": "/video-player-app/precache-manifest.381ec97452db58dae30c7c6df8802fd7.js",
     "service-worker.js": "/video-player-app/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/video-player-app/static/css/main.5ecd60fb.chunk.css.map"
   }
