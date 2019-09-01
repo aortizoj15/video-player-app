@@ -2,6 +2,7 @@
   "name": "video-player-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aortizoj15.github.io/video-player-app",
   "dependencies": {
     "@material-ui/core": "^4.3.1",
     "@types/jest": "24.0.17",
@@ -18,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint:fix": "eslint './src/**/*.{ts,tsx}'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

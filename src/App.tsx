@@ -11,7 +11,7 @@ class App extends Component {
   }
 
 componentDidMount() {
-  this.handleSubmit('rap instrumentals');
+  this.handleSubmit('edm');
 }
 
 
