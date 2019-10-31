@@ -7,4 +7,4 @@ export default axios.create({
     maxResults: 5,
     key: 'AIzaSyBIKDEpznsEtfFTO4ciWL1B10RTaOfPQ5k'
   }
-})
+});
