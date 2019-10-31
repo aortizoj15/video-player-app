@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Grid } from '@material-ui/core';
-import { SearchBar, VideoDescription, VideoList } from './components';
+import { SearchBar, VideoDescription, VideoList, Header } from './components';
 import youtube from './api/youtubeApi';
 require('dotenv').config();
 
@@ -21,12 +21,13 @@ const App = () => {
     setSelectedVideo(response.data.items[0]);
   };
 
-  // TODO: useEffect(() => handleSubmit('top views'), []);
-
   return (
     <Grid container spacing={2} style={{ justifyContent: 'center' }}>
       <Grid item xs={11}>
         <Grid container spacing={2}>
+          <Grid item xs={12}>
+            <Header />
+          </Grid>
           <Grid item xs={12}>
             <SearchBar onFormSubmit={handleSubmit} />
           </Grid>

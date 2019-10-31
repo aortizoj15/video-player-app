@@ -5,7 +5,7 @@ const SearchBar = ({ onFormSubmit }: any) => {
   // const SearchBar = ({ onFormSubmit }: any) => {
   const [searchTerm, setSearchTerm] = useState('');
   useEffect(() => {
-    onFormSubmit('Super Mario Bros');
+    onFormSubmit('Rick and Morty');
   }, []);
 
   const handleChange = (e: any) => {

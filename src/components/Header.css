@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1fr;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
